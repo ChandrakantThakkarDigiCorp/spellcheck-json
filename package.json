@@ -1,0 +1,34 @@
+{
+  "name": "spellcheck-json",
+  "version": "0.0.1",
+  "description": "This module is used for checking spelling from custom json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "node demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChandrakantThakkarDigiCorp/spellcheck-json.git"
+  },
+  "keywords": [
+    "spell",
+    "spellcheck",
+    "josn",
+    "jsonfile",
+    "readjson",
+    "writejson"
+  ],
+  "author": "Chandrakant Thakkar",
+  "license": "MIC",
+  "bugs": {
+    "url": "https://github.com/ChandrakantThakkarDigiCorp/spellcheck-json/issues"
+  },
+  "homepage": "https://github.com/ChandrakantThakkarDigiCorp/spellcheck-json#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "is": "^3.2.1",
+    "node.extend": "^2.0.0",
+    "path": "^0.12.7",
+    "promiseback": "^2.0.2"
+  }
+}
